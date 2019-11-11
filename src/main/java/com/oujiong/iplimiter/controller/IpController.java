@@ -1,6 +1,6 @@
-package com.jincou.iplimiter.controller;
+package com.oujiong.iplimiter.controller;
 
-import com.jincou.iplimiter.annotation.IpLimiter;
+import com.oujiong.iplimiter.annotation.IpLimiter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @Description: TODO
+ * @Description: 接口测试
  *
  * @author xub
  * @date 2019/6/4 上午9:10

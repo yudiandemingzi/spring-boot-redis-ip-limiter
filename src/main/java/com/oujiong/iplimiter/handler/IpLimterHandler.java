@@ -1,8 +1,7 @@
-package com.jincou.iplimiter.handler;
+package com.oujiong.iplimiter.handler;
 
 import com.google.common.base.Preconditions;
-import com.jincou.iplimiter.annotation.IpLimiter;
-import org.apache.commons.lang3.StringUtils;
+import com.oujiong.iplimiter.annotation.IpLimiter;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
@@ -22,11 +21,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author snowalker
- * @version 1.0
- * @date 2018/10/27 1:17
- * @className IpLimterHandler
- * @desc 限流处理器
+ * @Description: 限流处理器
+ *
+ * @author xub
+ * @date 2019/10/27 1:17
  */
 @Aspect
 @Component
@@ -54,7 +52,7 @@ public class IpLimterHandler {
     /**
      * 这个切点可以不要，因为下面的本身就是个注解
      */
-//    @Pointcut("@annotation(com.jincou.iplimiter.annotation.IpLimiter)")
+//    @Pointcut("@annotation(IpLimiter)")
 //    public void rateLimiter() {}
 
     /**

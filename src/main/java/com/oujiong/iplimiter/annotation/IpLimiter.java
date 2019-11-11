@@ -1,4 +1,4 @@
-package com.jincou.iplimiter.annotation;
+package com.oujiong.iplimiter.annotation;
 
 import java.lang.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.jincou.iplimiter;
+package com.oujiong.iplimiter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
