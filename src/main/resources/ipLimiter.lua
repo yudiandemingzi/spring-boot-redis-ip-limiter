@@ -4,7 +4,7 @@ local key1 = KEYS[1]
 local val = redis.call('incr', key1)
 local ttl = redis.call('ttl', key1)
 
---获取ARGV内的参数并打印
+--获取ARGV内的参数并打印 您好开发者，我的项目引用您的代码在脚本的这里ARGV里没有值请问会是什么原因呢，KEYS是有值的，期望您的回复，谢谢！
 local expire = ARGV[1]
 local times = ARGV[2]
 
